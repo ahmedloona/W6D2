@@ -1,0 +1,30 @@
+figure {
+  display: flex
+
+}
+ul {
+  display: flex; 
+  width: 200px;
+  height: 400px;
+  margin: 10px;
+  background: black;
+  border: 2px solid salmon;
+  flex-direction: column;
+}
+
+ul:hover {
+  background: pink;
+}
+
+li {
+  display: block;
+  padding-top: 32px;
+  width: 160px;
+  height: 100px;
+  border: 1px solid pink;
+  background: lightseagreen;
+}
+
+[data-size="3"] {
+  background: white;
+}

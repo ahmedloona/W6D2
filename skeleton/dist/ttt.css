@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+li:hover {
+  background: yellow; 
+}
+
+ul {
+  display: flex;
+  max-width: 148px;
+  max-height: 150px;
+  background: lavender;
+  border: 2px solid black;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+li {
+  /* flex-wrap: wrap; */
+  display: flex;
+  float: left;
+  width: 48px;
+  height: 48px;
+
+  border: 1px solid black;
+  background: lightseagreen;
+}
+
+.x {
+  color: red;
+}
+
+.o {
+  color: turquoise;
+}
+
+.o .x {
+  background-color: aliceblue;
+  font-size: 25px;
+}
